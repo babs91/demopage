@@ -1,0 +1,44 @@
+header{
+
+    text-shadow: 2px 2px 2px white;
+    box-shadow: 2px 4px 5px 7px silver;
+    border-style: solid;
+    border-color: white;
+    z-index: 9999;
+    right: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    font-size: smaller;
+ }
+
+ #createAdmn{
+
+    border-style: solid;
+    border-color: white;
+    box-shadow:  1px 2px 4px 1px silver;
+    text-shadow: 2px 2px 2px white;
+    font-size: smaller;
+    
+ }
+
+ #createProduct{
+
+    border-style: solid;
+    border-color: white;
+    box-shadow:  1px 2px 4px 1px silver;
+    text-shadow: 2px 2px 2px white;
+    font-size: smaller;
+    
+
+ }
+ #uploaddesign{
+
+    border-style: solid;
+    border-color: white;
+    box-shadow:  1px 2px 4px 1px silver;
+    text-shadow: 2px 2px 2px white;
+    font-size: smaller;
+
+
+    }

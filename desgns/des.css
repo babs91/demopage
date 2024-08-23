@@ -1,0 +1,90 @@
+body{
+
+    margin: 0px;
+    font-family:kaushan Script;
+    
+}
+
+.des{
+  margin-right: 10%;
+  text-shadow: 2px 3px 4px white;;
+  border-radius: 4px;
+  border-style:solid;
+  border-color:white;
+  border-width:thin;
+  box-shadow:2px 4px 14px 5px rgb(153, 183, 231);
+  
+}
+.Ttal{
+  margin-right: 10%;
+}
+
+input{
+box-shadow:2px 4px 7px 5px rgb(153, 183, 231);
+}
+
+ul{
+list-style-type: none;
+}
+
+header{
+box-shadow:2px 4px 7px 5px rgb(153, 183, 231);
+text-shadow: 2px 2px 2px white;
+}
+
+#top{
+  margin-left:10px;margin-top:1%;margin-right:10%;
+  
+}
+
+.bt1{
+
+  width:60%;box-shadow:2px 4px 7px 5px rgb(153, 183, 231);
+}
+
+.imge{
+  box-shadow:2px 4px 7px 5px rgb(153, 183, 231);
+}
+
+.bt{
+  width:60%;box-shadow:2px 4px 7px 5px rgb(153, 183, 231);
+}
+
+.advt{
+
+   animation: rotation 50s infinite linear;
+}
+
+@keyframes rotation{
+
+  from{
+
+    transform: rotateY(0deg);
+}
+
+to{
+
+    transform:rotateY(270deg);
+  
+}
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+.imge{
+
+   height:100px;
+}
+
+.advt{
+  height:100px;
+
+}
+
+
+  
+}

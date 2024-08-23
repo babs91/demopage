@@ -1,0 +1,260 @@
+body{
+
+    margin: -1px;
+    background-color:white;
+    font-family:Kaushan Script;
+    transition-duration: 2s;
+    text-shadow: 2px 2px 2px darkblue;
+}
+
+
+.hmo{
+
+    background-image:url("../images/icons8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:45%;
+    font-family:Kaushan Script;
+    font-size:26px; 
+    color:rgb(226, 226, 226);
+    border-width:3px; 
+    border-radius:2mm;
+    border-style: groove; 
+    border-color: rgb(216, 216, 243);
+    padding-top:42px;
+    padding-bottom:29.9px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:-10px;
+    
+    
+       
+
+}
+
+
+#header{
+       z-index: 9999;
+       right: 0;
+       top: 0;
+       left: 0;
+       position: fixed;
+       padding-left: 10px;
+       padding-top: 33px;
+       padding-bottom: 30px;
+       font-size: 2vmax;
+       border-style: groove;
+       border-width: 2.5px;
+       border-right: transparent;
+       border-left: transparent;
+       border-top: transparent;
+       border-color:rgb(197, 227, 240);
+       background-image: url("../images/image2.png");
+       background-repeat: no-repeat;
+       background-size: 300px;
+       background-position:center;
+       background-clip: padding-box;
+       
+      
+}
+
+#front{
+
+    margin-top: 30px;
+    margin-left: 199px;
+    margin-right: 199px;
+    background-color: rgba(112, 3, 12, 0.993);
+   
+
+    padding-bottom:6px;
+    padding-top: 6.5px;
+    border-top-left-radius: 10mm;
+    border-top-right-radius: 10mm;
+    border-style: inset;
+    border-right-color:white;
+    border-bottom-color:white;
+    border-left-color:transparent;
+    border-top-color:transparent;
+    font-size: 1.5vmax;
+    min-width: 45%;
+}
+
+#foot{
+    
+     white-space:nowrap;
+     margin-top:4px;
+     margin-left: 199px;
+     margin-right: 199px;
+     overflow-y: hidden;
+     overflow-x: scroll;
+     border-color: white;
+     border-width: thick;
+     border-style: double; 
+     border-radius: 5px;
+     cursor:pointer;
+     min-width: 45%;   
+     box-shadow:2px 4px 7px 5px rgb(195, 214, 235);
+       
+}
+
+.mg{
+
+    display:inline-block;
+    
+    
+    
+    
+}
+
+#mnu{
+
+     margin-top:10%;
+     margin-left: 199px;
+     margin-right: 199px;
+     margin-bottom: 30px;
+     padding-bottom:-3px;
+     padding-top: 1px;
+     background-color: rgb(4, 4, 77);
+     font-size:18px;
+     border-color:white;
+     border-width: thin; 
+     border-bottom-color:white;
+     border-style:solid; 
+     box-shadow:2px 4px 7px 5px rgba(172, 205, 241, 0.801);
+     border-bottom-left-radius:8mm;
+     border-bottom-right-radius:8mm;
+     min-width:45%;
+     text-shadow: 2px 2px 2px rgb(70, 178, 224);
+
+     
+     
+}
+
+#ftr{
+
+    margin-top: 30px;
+    background-color: rgb(4, 4, 49);
+    color:white;
+   
+
+}
+
+.cr1{
+
+    background-image:url("../images/icons8-email-48.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.cr2{
+
+    background-image:url("../images/icons8-facebook-48.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cr3{
+
+      background-image:url("../images/icons8-whatsapp-100.png");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+
+a:hover{
+
+    
+      font-family: Arial;
+      
+      
+      
+}
+
+
+
+
+#crest{
+
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 4mm;
+    background-color: rgb(8, 114, 156);
+    border-style: solid; 
+    border-color: white;
+    border-width: thin; 
+    box-shadow:1.5px 3.5px 6px 5px rgb(138, 202, 229);
+    font-size: 1.2vmax;
+    min-width: 2px;
+    transition-duration:2s;
+
+    
+}
+
+
+@media screen and (max-width:768px) {
+
+    #crest{
+
+        display: block;
+        margin-left:10%;
+        margin-right:10%;
+        padding: 20px;
+        font-size: 10%;
+        
+    }
+
+
+
+    #header{
+
+        background-size:150px;
+    }
+
+    #mnu{
+     
+        margin-left:109px; 
+
+    }
+
+    #foot{
+
+        margin-left:109px;
+    }
+
+    #front{
+
+        margin-left:109px;
+    }
+    
+}
+
+
+
+
+.view{
+    margin:-1px;
+    background-image:url("../images/abstract-geometric-banner-free-vector.jpg");
+    background-position:left;
+    background-repeat:no-repeat;
+    background-size:450px;
+  
+}
+
+
+
+/* .abt{
+
+background-image:url("../images/icons8-megaphone-48.png");
+background-repeat:no-repeat;
+background-position:left;
+background-size:30%;
+
+
+
+} */

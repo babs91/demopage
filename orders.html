@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="desgns/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script:regular" rel="stylesheet" />
+    <script src="js pro/jquery-3.6.0.js"></script>
+    <style>
+        header{
+            text-shadow:2px 3px 4px white;
+            box-shadow:2px 4px 7px 5px silver;
+        }
+        button{
+            text-shadow:2px 3px 4px white;
+            box-shadow:2px 4px 7px 5px silver;
+        }
+
+        .flex-container{
+
+            display:flex;
+            flex-direction: row;
+            margin-left:10%;
+            border-style: hidden;
+            width:800px;
+            overflow-x: scroll;
+        
+        }
+
+        .item{
+
+            
+            margin-right:10%;
+            margin-left: 2%;
+            box-shadow:2px 4px 7px 5px silver;
+                    
+        }
+
+        input{
+
+        
+            border-radius: 2mm;
+        }
+
+        
+
+@media screen and (max-width:768px) {
+
+
+ .flex-container{width:400px;}
+
+
+  
+}
+        
+
+        
+
+    </style>
+    <title>Document</title>
+</head>
+<body class="bg-light">
+    <header align="center" class="bg-dark text-light p-3">
+        ....Available Products @ give away prices....
+    </header>
+    <div style="margin-bottom:7px" class="screen">
+    <button class="btn btn-dark mt-3"><a style="color:white;text-decoration: none;" href="home.html">Home</a></button>
+    <div align="center" class="text-light" style="text-shadow:2px 3px 4px black;font-size:35px"><marquee><i>Redefinig your space</i></marquee></div>
+    <div align="center"  class="flex-container" style="margin-top:10px;">
+        <div class="item">
+            <div >Description</div>
+            <img src="images/IMG-20190225-WA0042.jpg" height="150px" width="160px" alt="upgrade ur browser"/>
+            <div>Price:####</div>
+        </div>
+        <div class="item">
+            <div>Description</div>
+            <img src="images/IMG-20210622-WA0017.jpg" height="150px" width="160px" alt="upgrade ur browser"/>
+            <div>Price:####</div>
+        </div>
+        <div class="item">
+            <div>Description</div>
+            <img src="images/IMG-20190327-WA0019.jpg" height="150px" width="160px" alt="upgrade ur browser"/>
+            <div>Price:####</div>
+        </div>
+        <div class="item">
+            <div>Description</div>
+            <img src="images/IMG-20190327-WA0014.jpg" height="150px" width="160px" alt="upgrade ur browser"/>
+            <div>Price:####</div>
+        </div>
+        <div class="item">
+            <div>Description</div>
+            <img src="images/IMG-20191007-WA0018.jpg" height="150px" width="160px" alt="upgrade ur browser"/>
+            <div>Price:####</div>
+        </div>
+        <div class="item">
+            <div>Description:</div>
+            <img src="images/IMG-20210719-WA0008.jpg" height="150px" width="160px" alt="upgrade ur browser"/>
+            <div>Price:####</div>
+        </div>
+        
+        
+    </div>
+    </div>
+    <div>
+        <form class="fm card card-body bg-dark text-light form-group" align="center" style="margin-bottom: 15px;
+        margin-left:5000px;box-shadow:2px 4px 7px 5px silver;">
+            <div>
+                <input type="text"  placeholder="customers name"   />
+                <input type="text"  placeholder="customers phone number"/>
+            </div><br>
+            <div>
+                <input type="text"  placeholder="customers address"   />
+                <input type="text"  placeholder="Product description"/>
+            </div><br>
+            <div>
+                <input class="btn btn-success" type="submit" value="send" />
+            </div>
+        </form>
+    </div>
+
+    <div class="bg-dark">.</div>
+    <script>
+      document.querySelector(".screen").addEventListener('mouseover',function(e){
+          document.querySelector(".fm").style.transitionDuration = "2s";
+          document.querySelector(".fm").style.marginLeft = "0px";
+
+             
+      })
+      
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    margin:-1px;
+    background-color:white;
+}
+
+.hd{
+
+ color: white;
+ font-family:Kaushan Script;
+ font-weight: bold;
+ padding-top: 50px;
+ padding-bottom: 40px;
+ background-color:darkblue;
+ font-size: 40px;
+ background-image:url("../images/IMG_Teamwork.jpg");
+ background-position:left;
+ background-repeat:no-repeat;
+ background-size:50%;
+
+}
+
+#lhd2{
+
+ font-size:35px;
+ color: white;
+
+}
+
+.bd{
+float: left;
+ 
+}
+
+.foot{
+
+ background-color:darkblue;
+ padding-top: 80px;
+ padding-bottom:110px;
+ background-image:url("../images/IMG_Teamwork5.jpg");
+ background-size:50%;
+ background-position:left;
+ background-repeat:no-repeat;
+ font-family:Kaushan Script;
+ font-size:23px;
+ color:white;
+ margin-top:10px;
+ 
+}

@@ -1,0 +1,56 @@
+body{
+
+    margin: -1px;
+    font-weight:bolder;
+    font-family:Kaushan Script;
+}
+form{
+
+   margin-top:2000px;
+   margin-right: 5px;
+   box-shadow: 2px 4px 7px 5px grey;
+   border-radius: 4px;
+   opacity:0.1;
+   
+}
+#hdr{
+
+    z-index: 9999;
+    right: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+    background-color:grey;
+    text-shadow: 2px 2px 2px cyan;
+    width:100%;
+    font-size:20px;
+    margin-bottom:10px;
+    padding-left:30%;
+    border-style: solid;
+    border-bottom-color:grey;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    background-image:url("../images/icons8-shoppingcart-32.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:30px;
+    font-family:Kaushan Script;
+    box-shadow: 2px 4px 7px 5px  cyan;
+}
+
+#hotdeal{
+
+    margin-bottom: 3px;
+    border-radius: 2mm;
+    margin-top:8px;
+    box-shadow:2px 4px 7px 5px cyan;
+} 
+
+input{
+
+    box-shadow:5px 4px 16px 5px cyan;
+
+
+}

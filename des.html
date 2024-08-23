@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA -compactible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script:regular" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="desgns/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="desgns/des.css"/>
+    <title>design page</title>
+</head>
+<body>   
+   
+    <div id="container">
+
+       <header class="bg-dark text text-light p-4 mb-3">
+       <span class="des bg-primary p-2">Designs</span>
+       <span style="margin-right:10%"><a href="home.html" class="btn btn-outline-primary" style="text-decoration:none; color:white;">Go Home</a></span>
+       <span class="Ttal" style="color:red"></span> New Posts:<span></span>
+       </header>
+       <form method="POST" action="des.php" class="form-group">
+         <input align="center" id="myInput"  style="box-shadow:2px 4px 7px 5px silver;" 
+             class="form-control mb-3 " type="text" placeholder="Search Product" name="phn" required>
+         <input style="margin-left:2%;border-style:solid;border-color:white;border-width:thin;" class="btn btn-dark" type="submit" value="Browse" name="brwse" />
+       </form>
+       <div>
+          
+         
+
+       </div>
+
+       <div  class="row" style="margin-top:35px;">
+        <div class="cham col-6 bg-light text-dark" 
+        style="max-height:350px;overflow-y:scroll;margin-left:2px;box-shadow:2px 4px 7px 5px rgb(153, 183, 231);margin-bottom:40px;" >
+
+            <div  align="center" id="top">
+               <div><button class="bt1 btn btn-outline-primary" >Description</button></div>
+               <img  class="imge card card-body" src="images/IMG_20191104_191146_714.JPG" height="250px" width="60%" alt="upgrade ur browser"/>
+               <div><button class="bt btn btn-primary" onclick="show()">Request  cost:</button></div>
+            </div><br>
+            <div align="center" id="top">
+               <div><button class="bt1 btn btn-outline-primary" >Description</button></div>
+               <img class="imge card card-body" src="images/IMG_20200130_161142.jpg" height="250px" width="60%" alt="upgrade ur browser"/>
+               <div><button class="bt btn btn-primary"  onclick="show()" >Request  cost:</button></div>
+            </div><br>
+            <div align="center" id="top">
+               <div><button class="bt1 btn btn-outline-primary" >Description</button></div>
+               <img class="imge card card-body" src="images/IMG_20190825_190948_553.JPG" height="250px" width="60%" alt="upgrade ur browser"/>
+               <div><button class="bt btn btn-primary"  onclick="show()">Request  cost:</button></div>
+            </div><br>
+            <div align="center" id="top">
+               <div><button class="bt1 btn btn-outline-primary" >Description</button></div>
+               <img class="imge card card-body" src="images/IMG_20191107_113623_123.JPG" height="250px" width="60%" alt="upgrade ur browser"/>
+               <div><button class="bt btn btn-primary"  onclick="show()">Request  cost:</button></div>
+            </div><br>
+            <div align="center" id="top">
+               <div><button class="bt1 btn btn-outline-primary" >Description</button></div>
+               <img class="imge card card-body" src="images/IMG_20200130_161254.JPG" height="250px" width="60%" alt="upgrade ur browser"/>
+               <div><button class="bt btn btn-primary" onclick="show()" >Request  cost:</button></div>
+            </div><br>
+            <div align="center" id="top">
+               <div><button class="bt1 btn btn-outline-primary" >Description</button></div>
+               <img class="imge card card-body" src="images/IMG-20210712-WA0031.JPG" height="250px" width="60%" alt="upgrade ur browser"/>
+               <div><button class="bt btn btn-primary"  onclick="show()">Request  cost:</button></div>
+            </div><br>
+            <div align="center" id="top">
+               <div><button class="bt1 btn btn-outline-primary" >Description</button></div>
+               <img class="imge card card-body" src="images/IMG-20210712-WA0063.jpg" height="250px" width="60%" alt="upgrade ur browser"/>
+               <div><button class="bt btn btn-primary"  onclick="show()">Request  cost:</button></div>
+            </div><br>
+            <div align="center" id="top">
+               <div><button class="bt1 btn btn-outline-primary" >Description</button></div>
+               <img class="imge card card-body" src="images/IMG-20210712-WA0062.jpg" height="250px" width="60%" alt="upgrade ur browser"/>
+               <div><button class="bt btn btn-primary"  onclick="show()" >Request  cost:</button></div>
+            </div><br>
+            
+
+         </div>
+         <div class="col-5 bg-light" style="max-height:350px;box-shadow:2px 4px 7px 5px silver;overflow-y:hidden;">
+            <marquee> For advert and placement call:</marquee>
+            <div class="avt" align="center">
+            <img class="advt" src="images/image2.png" height="250px" width="60%" />
+            </div>
+            <form class="fr form-group mt-3" style="display:none">
+               <input class="form-control mb-3" type="text" placeholder="customers name" name="custname" required/>
+               <input class="form-control mb-3" type="text" placeholder="customers address" name="custadd" required/>
+               <input class="form-control mb-3" type="text" placeholder="customers phone number" name="phone" required/>
+               <input class="form-control mb-3" type="text" placeholder="product description" name="desc" required/>
+               <input class="form-control mb-3" type="text" placeholder="quantity" name="qty" required/>
+               <center><input class="btn btn-success" type="submit" value="send" name="reque"/></center>
+
+            </form>
+         </div>
+        
+      
+    </div><br><br>
+    <div class="bg-dark p-4 text-dark" style="box-shadow:2px 4px 7px 5px rgb(153, 183, 231);max-width:100%;text-shadow: 2px 2px 2px red;">
+      <marquee>Kumbaya Interioz</marquee>
+   </div>
+   <script type="text/javascript">
+
+      
+         function show(){
+            alert("All payments are made on delivery")
+            document.querySelector(".avt").style.transitionDuration = "2s";
+            document.querySelector(".avt").style.display = "none";
+            document.querySelector(".fr").style.display ="block";
+         }
+      
+
+   </script>
+    </body>
+</html>
